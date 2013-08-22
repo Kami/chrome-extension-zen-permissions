@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Zen Permissions</title>
+
+    <link href="assets/extern/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-xs-12">
+          <h1 class="title"><img src="assets/img/logotype.png" alt="Zen Permissions" /></h1>
+        </div>
+      </div>
+
+      <!-- High Risk Extensions -->
+      <div class="row">
+        <div class="col-md-12 col-xs-12" data-toggle="collapse" data-target="#high-risk">
+          <img src="assets/img/high.png" class="title-icon">
+          <h2 class="title">High Risk (<span id="high-risk-count">0</span>)</h2>
+          <span class="glyphicon glyphicon-chevron-down"></span>
+        </div>
+      </div>
+
+      <div id="high-risk" class="row collapse in">
+        <div class="col-md-12 col-xs-12">
+          <div id="high-risk-notice" class="text-center"></div>
+          <table id="high-risk-table" class="table">
+          </table>
+        </div>
+      </div>
+
+      <!-- Medium Risk Extensions -->
+      <div class="row">
+        <div class="col-md-12 col-xs-12" data-toggle="collapse" data-target="#medium-risk">
+          <img src="assets/img/medium.png" class="title-icon">
+          <h2 class="title">Medium Risk (<span id="medium-risk-count">0</span>)</h2>
+          <span class="glyphicon glyphicon-chevron-down"></span>
+        </div>
+      </div>
+
+      <div id="medium-risk" class="row collapse in">
+        <div class="col-md-12 col-xs-12">
+          <div id="medium-risk-notice" class="text-center"></div>
+          <table id="medium-risk-table" class="table">
+          </table>
+        </div>
+      </div>
+
+      <!-- Low Risk Extensions -->
+      <div class="row">
+        <div class="col-md-12 col-xs-12" data-toggle="collapse" data-target="#low-risk">
+          <img src="assets/img/low.png" class="title-icon">
+          <h2 class="title">Low Risk (<span id="low-risk-count">0</span>)</h2>
+          <span class="glyphicon glyphicon-chevron-down"></span>
+        </div>
+      </div>
+
+      <div id="low-risk" class="row collapse in">
+        <div class="col-md-12 col-xs-12">
+          <div id="low-risk-notice" class="text-center"></div>
+          <table id="low-risk-table" class="table">
+          </table>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="row">
+        <div class="footer">
+          <div class="col-md-7 col-xs-7">Visit <a href="https://www.zenpermissions.com/" target="_newtab">Zen Permissions</a> website.</div>
+          <div class="col-md-5 col-xs-5 text-right"><a href="#" target="_newtab">Help spread the word!</a></div>
+        </div>
+      </div>
+
+    <script src="assets/extern/js/jquery-1.10.2.min.js"></script>
+    <script src="assets/extern/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/extern/js/handlebars.runtime.js"></script>
+    <script src="assets/extern/js/async.js"></script>
+    <script src="assets/compiled/templates.js"></script>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/zen_permissions.js"></script>
+  </body>
+</html>

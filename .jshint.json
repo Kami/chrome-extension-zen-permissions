@@ -1,0 +1,22 @@
+{
+    "browser"       : true,
+    "jquery"        : true,
+    "maxerr"        : 100,
+    "curly"         : true,
+    "eqeqeq"        : true,
+    "latedef"       : false,
+    "undef"         : true,
+    "newcap"        : true,
+    "nonew"         : true,
+    "onevar"        : false,
+    "trailing"      : true,
+    "white"         : false,
+    "sub"           : true,
+    "es3"           : true,
+    "onecase"       : true,
+    "strict"        : false,
+    "loopfunc"      : true,
+    "globals":      {
+        "chrome": false
+    }
+}

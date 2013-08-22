@@ -1,0 +1,21 @@
+{
+  "name": "",
+  "version": "0.1.0",
+  "author": "Tomaz Muraus <tomaz+npm@tomaz.me>",
+  "dependencies": {
+    "async": "~0.2.0"
+  },
+  "devDependencies": {
+    "jshint": "~2.1.0",
+    "handlebars": "~1.0.0"
+  },
+  "scripts": {
+    "lint": "./scripts/lint.sh"
+  },
+  "licenses" : [
+    {
+      "type" : "Apache",
+      "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ]
+}

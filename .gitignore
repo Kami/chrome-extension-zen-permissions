@@ -1,0 +1,4 @@
+node_modules/
+extension/assets/compiled/*
+*.crx
+*.pem

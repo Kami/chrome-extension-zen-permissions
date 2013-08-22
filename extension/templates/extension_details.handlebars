@@ -1,0 +1,31 @@
+<tr id="details-{{ id }}" class="collapse{{# if disabled }} disabled{{/if}}" width="100%">
+<td colspan="2" style="width: 200px">
+  <strong>Description</strong>: {{ description }}<br />
+  {{# if website }}
+    <strong>Website</strong>: <a href="{{ website }}" target="_newtab" class="website-url">{{ website }}</a><br />
+  {{/if}}
+  <strong>Status</strong>:  {{# if disabled }}Disabled{{ else }}Enabled{{/if}}<br />
+  {{# if disabled }}
+    <strong>Disable reason</strong> {{ disabledReason }}<br />
+  {{/if}}
+</td>
+<td colspan="2">
+  {{# if permissionWarnings }}
+    <strong>Permissions</strong>:
+      <ul>
+      {{# each permissionWarnings }}
+        <li>{{ this }}</li>
+      {{/each}}
+      </ul>
+  {{/if}}
+
+  {{# if hostPermissions }}
+    <strong>Host Permissions</strong>:
+    <ul>
+      {{# each hostPermissions }}
+        <li>{{ this }}</li>
+      {{/each}}
+    </ul>
+  {{/if}}
+</td>
+</tr>

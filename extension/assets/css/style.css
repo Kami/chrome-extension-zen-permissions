@@ -1,0 +1,49 @@
+body {
+  min-width: 600px;
+  background: #ffffff;
+}
+
+h1.title {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  font-size: 18px;
+  text-align: right;
+}
+
+img.title-icon {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+h2.title {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 10px 3px;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+}
+
+.website-url {
+  text-overflow: ellipsis;
+  display: inline-block;
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.disabled {
+  background-color: #E5E4E2;
+}
+
+div.footer {
+  background: #f3f3f3;
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 33px;
+}
