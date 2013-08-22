@@ -1,8 +1,13 @@
 # Zen Permissions Chrome Extension
 
-Primary goal of this extension is to increase security awareness of the end
-user by providing an at-a-glance overview of the permissions requirements by
-the installed extensions.
+Primary goal of this extension is to increase security awareness of the Chrome
+extension end users.
+
+First version works in retroactive mode and provides an at-a-glance overview of
+the permissions required by the installed Chrome extensions.
+
+Ultimate goal is to provide proactive mode, more sophisticated "extension risk"
+categorization, and make it even more friendly for less technical end users.
 
 # Demo
 
